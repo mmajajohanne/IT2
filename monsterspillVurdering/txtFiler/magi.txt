@@ -1,0 +1,3 @@
+tryllestav, 10,
+glitrende medaljong, 15,
+magisk ring, 20,

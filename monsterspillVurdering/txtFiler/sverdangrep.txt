@@ -1,0 +1,3 @@
+tresverd,10,
+jernsverd,15,
+diamantsverd,20,

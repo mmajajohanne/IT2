@@ -1,0 +1,2 @@
+firkløver,5,hell,
+energibar,10,helse,

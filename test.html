@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <html lang = "no"> 
+    <meta charset="utf-8">
+    <title> Livsstil </title>
+    <link rel = "icon" href = 
+    "medianettside\asia-ikon.png" 
+            type = "image/x-icon">
+    <link rel="stylesheet" href = "./csshoved.css">
+</head>
+<body> 
+        <!-- NAVIGASNJOSBAR ----------------------------------------------------------------------------------->
+        <nav id="navbar">
+            <a href ="./MJnettside.html">
+                <h1> Kroppsøving </h1>
+              </a>
+            <ul class="nav-linker">
+                <li class="navEL"> <a href = "./generell-info.html"> Informasjon </a></li>
+                <div class="dropdown"> 
+                    <button class="dropbtn"> <a href = "./surf-historie.html"> Historie &#8595; </a>
+                </button>
+                <div class="dropdown-innhold" id="idDropDown"> </a>
+                    <a href="./surf-historie.html#Definisjonen">Definisjonen </a>
+                    <a href="./surf-historie.html#Opprinnelsen">Opprinnelsen</a>
+                    <a href="./surf-historie.html#Moderne-surf">Moderne surf</a>
+                </div>
+                </div>
+                <li class="navEL"> <a href = "./konkurranser.html"> Konkurranser </a>  </li>
+                <li class="navEL"> <a href = "./livsstil.html"> Livsstil </a></li>
+            </ul> 
+        </nav>
+
+    <div class="HovedDiv">
+    <h1 style="font-size: 45px;"> størrelsesguide </h1>
+    </div>
+    <p> Finn ut hvilket brett som passer best for deg og ditt nivå.</p> 
+    <div id=idInnhold>
+    
+    <div id="idInndeling">
+      <p>  <p> &nbsp; </p> </p>
+    </div>
+    <form id="idForm">
+        <fieldset id="idForm">
+            <legend> Hvilket brett passer deg?? </legend>
+            <p> Navn: <input name ="navn" type="text" required></p>
+            <p> Vekt (kg): <input name ="vekt" type="number" required min="45" max="350"></p>
+            <p> Nybegynner? <input name="nivå" type="checkbox"></p>
+            <br>
+        </fieldset>
+        <fieldset>
+            <input type="submit">
+            <input type="reset" onclick="history.go(0)">
+        </fieldset>
+    </form>
+
+    <p id="idTilbakemelding"></p>
+    
+
+    <ul id="idTilbakemelding1">
+        <li> Lengde: 6′2″ - 6′4″ </li>
+        <li> Bredde: 18¾″-19¼″</li>
+        <li> Tykkelse: 2¼″-23⁄8″ </li>
+        <li style = "list-style: none;"> &nbsp; </li>
+        <li style="list-style: none;"> <img src="./medianettside/tilbake1-bilde.jpeg" height="200" width="150" alt="Surfebrett størrelse 6´2"> </li>
+    </ul>
+    <ul id="idTilbakemelding2">
+        <li> Lengde 6′0″-6′4″</li>
+        <li> Bredde: 18½″-19″</li>
+        <li> Tykkelse: 2¼″-23⁄8″ </li>
+        <li style = "list-style: none;"> &nbsp; </li>
+        <li style="list-style: none;"> <img src="./medianettside/tilbake2-bilde.jpeg" height="200" width="150" alt="Surfebrett størrelse 6´4"> </li>
+    </ul>
+    <ul id="idTilbakemelding3">
+        <li> Lengde: 6′4″-6′8″ </li>
+        <li> Bredde: 19″-20″ </li>
+        <li> Tykkelse: 23⁄8″-2½″ </li>
+        <li style = "list-style: none;"> &nbsp; </li>
+        <li style="list-style: none;"> <img src="./medianettside/tilbake3-bilde.jpeg" height="200" width="150" alt="Surfebrett størrelse 6´2"> </li>
+    </ul>
+    <ul id="idTilbakemelding4">
+        <li> Lengde 6′2″-6′6″</li>
+        <li> Bredde: 18¾″-19¼″</li>
+        <li> Tykkelse: 23⁄8″-2½″ </li>
+        <li style = "list-style: none;"> &nbsp; </li>
+        <li style="list-style: none;"> <img src="./medianettside/tilbake4-bilde.jpeg" height="200" width="150" alt="Surfebrett størrelse 6´4"> </li>
+    </ul>
+    <ul id="idTilbakemelding5">
+        <li> Lengde 6′6″-6′10″</li>
+        <li> Bredde: 19½″-20½″</li>
+        <li> Tykkelse: 2½″-25⁄8″ </li>
+        <li style = "list-style: none;"> &nbsp; </li>
+        <li style="list-style: none;"> <img src="./medianettside/tilbake5-bilde.png" height="200" width="150" alt="Surfebrett størrelse 6´4"> </li>
+    </ul>
+    <ul id="idTilbakemelding6">
+        <li> Lengde 6′4″-6′8″ </li>
+        <li> Bredde: 19″-19¾″</li> d hj jd vj cv jdjg jjmsn jfjjd hfjd mdn gmn shdu jfhuf jgh
+        <li> Tykkelse: 2½″-25⁄8″ </li>
+        <li style = "list-style: none;"> &nbsp; </li> 
+        <li style="list-style: none;"> <img src="./medianettside/tilbake6-bilde.png" height="200" width="150" alt="Surfebrett størrelse 6´4"> </li>
+    </ul>
+    </div>
+    <p> </p>
+    <div id="idSlutt">
+    
+    </div>
+    </div>
+    
+        
+    <script>
+        var formEl = document.getElementById("idForm")
+        var tilbakeEl = document.getElementById("idTilbakemelding")
+        var tilbakeEl1 = document.getElementById("idTilbakemelding1")
+        var tilbakeEl2 = document.getElementById("idTilbakemelding2")
+        var tilbakeEl3 = document.getElementById("idTilbakemelding3")
+        var tilbakeEl4 = document.getElementById("idTilbakemelding4")
+        var tilbakeEl5 = document.getElementById("idTilbakemelding5")
+        var tilbakeEl6 = document.getElementById("idTilbakemelding6")
+
+        tilbakeEl1.style.display = "none"
+        tilbakeEl2.style.display = "none"
+        tilbakeEl3.style.display = "none"
+        tilbakeEl4.style.display = "none"
+        tilbakeEl5.style.display = "none"
+        tilbakeEl6.style.display = "none"
+
+        
+        formEl.addEventListener("submit", lagrefunk)
+        formEL.addEventListener("reset", resetfunk)
+        //onclick="history.go(0)"
+
+        function resetfunk(event) {
+            tilbakeEl1.style.display = "none"
+            tilbakeEl2.style.display = "none"
+            tilbakeEl3.style.display = "none"
+            tilbakeEl4.style.display = "none"
+            tilbakeEl5.style.display = "none"
+            tilbakeEl6.style.display = "none"
+        }
+
+        function lagrefunk(event) {
+            event.preventDefault()
+            if (Number(formEl.vekt.value) >= 45 && (Number(formEl.vekt.value)) < 63 && formEl.nivå.checked) {
+                tilbakeEl.innerHTML = "Hei " + formEl.navn.value + "! Det beste brettet for deg kan være:" + tilbakeEl1.innerHTML
+            } else if (Number(formEl.vekt.value) >= 45 && (Number(formEl.vekt.value)) < 63){
+                tilbakeEl.innerHTML = "Hei " + formEl.navn.value + "! Det beste brettet for deg kan være:" + tilbakeEl2.innerHTML
+            } else if (Number(formEl.vekt.value) >= 63 && (Number(formEl.vekt.value)) < 72 && formEl.nivå.checked){
+                tilbakeEl.innerHTML = "Hei " + formEl.navn.value + "! Det beste brettet for deg kan være:" + tilbakeEl3.innerHTML
+            } else if (Number(formEl.vekt.value) >= 63 && (Number(formEl.vekt.value)) < 72){
+                tilbakeEl.innerHTML = "Hei" + formEl.navn.value + "! Det beste brettet for deg kan være:" + tilbakeEl4.innerHTML
+            } else if (Number(formEl.vekt.value) >= 72 && (Number(formEl.vekt.value)) < 81 && formEl.nivå.checked){
+                tilbakeEl.innerHTML = "Hei " + formEl.navn.value + "! Det beste brettet for deg kan være:" + tilbakeEl5.innerHTML
+            } else if (Number(formEl.vekt.value) >= 72 && (Number(formEl.vekt.value)) < 81){
+                tilbakeEl.innerHTML = "Hei" + formEl.navn.value + "! Det beste brettet for deg kan være:" + tilbakeEl6.innerHTML
+            }
+        }
+        
+        //NAVBAR-SCRIPT-------------------------------------------
+        var Navbar = document.getElementsByClassName("navbar")
+
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar").style.margin ="0px";
+
+        } else {
+            document.getElementById("navbar").style.marginLeft ="100px";
+            document.getElementById("navbar").style.marginRight ="100px";
+        }
+        }
+    </script>
+
+
+</body>
+</html>

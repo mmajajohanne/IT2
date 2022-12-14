@@ -1,0 +1,3 @@
+hjelm, 10,
+treskjold, 15,
+jernskjold, 20,

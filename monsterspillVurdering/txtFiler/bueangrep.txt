@@ -1,0 +1,3 @@
+svært brukt bue,10,
+lite brukt bue,15,
+helt ny bue,20,
