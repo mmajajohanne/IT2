@@ -11,5 +11,4 @@ def sortering(a):
 
 liste = [9,1,2,3,1,12,8]
 print(sortering(liste))
-
-
+print(9)
